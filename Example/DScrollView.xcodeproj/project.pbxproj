@@ -32,7 +32,7 @@
 		224867A5DBC7F45B6060EE4A /* Pods-DScrollView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DScrollView_Tests.release.xcconfig"; path = "Target Support Files/Pods-DScrollView_Tests/Pods-DScrollView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		30593A62B5BABFA2E4BC4ECE /* Pods_DScrollView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DScrollView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42ECBDCF26E64034312667B5 /* Pods_DScrollView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DScrollView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B99E433500638D837E590C3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5B99E433500638D837E590C3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* DScrollView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DScrollView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,9 +43,9 @@
 		607FACE51AFB9204008FA782 /* DScrollView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DScrollView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6CAA6804C77ADD4E404E9468 /* DScrollView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DScrollView.podspec; path = ../DScrollView.podspec; sourceTree = "<group>"; };
+		6CAA6804C77ADD4E404E9468 /* DScrollView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DScrollView.podspec; path = ../DScrollView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		88F4E716C49623A941ECE9D3 /* Pods-DScrollView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DScrollView_Example.debug.xcconfig"; path = "Target Support Files/Pods-DScrollView_Example/Pods-DScrollView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		CFBC90846371C0C6EBA84F94 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CFBC90846371C0C6EBA84F94 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CFECD414BB8A83213D3A6DC2 /* Pods-DScrollView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DScrollView_Example.release.xcconfig"; path = "Target Support Files/Pods-DScrollView_Example/Pods-DScrollView_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,7 +156,6 @@
 				14B1EFC0C72CDE1E3E328AAB /* Pods-DScrollView_Tests.debug.xcconfig */,
 				224867A5DBC7F45B6060EE4A /* Pods-DScrollView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
